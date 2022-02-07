@@ -19,4 +19,8 @@ $ npm install consign --save
 
 Install Postman (https://www.postman.com/)
 
+Installing body parser to read json post responses on postman 
 $ npm install body-parser --save
+
+Installing NeDB 
+$ npm install nedb --save

@@ -1,24 +1,25 @@
 {
-  "name": "restful",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Mattx-br/Node-Js-backend-with-javaScript.git"
-  },
-  "author": "Anthony Nunes",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Mattx-br/Node-Js-backend-with-javaScript/issues"
-  },
-  "homepage": "https://github.com/Mattx-br/Node-Js-backend-with-javaScript#readme",
-  "dependencies": {
-    "body-parser": "^1.19.1",
-    "consign": "^0.1.6",
-    "express": "^4.17.2"
-  }
+    "name": "restful",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Mattx-br/Restful.git"
+    },
+    "author": "Anthony Nunes",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Mattx-br/Restful/issues"
+    },
+    "homepage": "https://github.com/Mattx-br/Restful#readme",
+    "dependencies": {
+        "body-parser": "^1.19.1",
+        "consign": "^0.1.6",
+        "express": "^4.17.2",
+        "nedb": "^1.8.0"
+    }
 }
