@@ -1,0 +1,22 @@
+Course by Udemy
+
+on this section of the course some terminal commands were used:
+open a Js file
+$ node <file>
+$ nodemon <file>
+
+start npm creating a package.json file 
+$ npm init
+
+installing express module
+$ npm install express --save
+
+installing globally an module to read the code and auto-updating the server
+$ npm install nodemon -g 
+
+installing consign module
+$ npm install consign --save
+
+Install Postman (https://www.postman.com/)
+
+$ npm install body-parser --save
