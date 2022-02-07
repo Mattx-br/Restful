@@ -1,4 +1,13 @@
 on this section of the course some terminal commands were used:
-node index.js
-npm init
-npm install express --save
+open a Js file
+$ node <file>
+$ nodemon <file>
+
+start npm creating a package.json file 
+$ npm init
+
+installing express dependencies
+$ npm install express --save
+
+installing globally an service to read the code and auto-updating the server
+$ npm install nodemon -g 
