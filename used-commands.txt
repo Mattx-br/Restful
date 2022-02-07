@@ -6,8 +6,11 @@ $ nodemon <file>
 start npm creating a package.json file 
 $ npm init
 
-installing express dependencies
+installing express module
 $ npm install express --save
 
-installing globally an service to read the code and auto-updating the server
+installing globally an module to read the code and auto-updating the server
 $ npm install nodemon -g 
+
+installing consign module
+$ npm install consign --save
