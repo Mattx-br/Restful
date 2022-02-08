@@ -33,6 +33,8 @@ module.exports = app => {
 
     route.post((req, res) => {
 
+        if (!app.utils.validator.user(app, req, res)) return false;
+
         db.insert(req.body, (err, user) => {
 
             if (err) {
@@ -69,6 +71,8 @@ module.exports = app => {
 
     routeId.put((req, res) => {
 
+        if (!app.utils.validator.user(app, req, res)) return false;
+
         db.update({ _id: req.params.id }, req.body, err => {
 
             if (err) {
@@ -80,6 +84,8 @@ module.exports = app => {
         });
 
     });
+
+    // deleting a register
 
     routeId.delete((req, res) => {
 

@@ -35,7 +35,7 @@ start npm creating a package.json file
 $ npm init
 
 installing express module
-$ npm install express --save
+$ npm install express@4.16.3 --save
 
 installing globally an module to read the code and auto-updating the server
 $ npm install nodemon -g 
@@ -51,3 +51,7 @@ $ npm install body-parser --save
 Installing NeDB 
 
 $ npm install nedb --save
+
+Installing express-validator
+
+$ npm install express-validator@5.3.0 --save
